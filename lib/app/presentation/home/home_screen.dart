@@ -126,9 +126,9 @@ class HomeScreen extends AppWidget<HomeNotifier, void, void> {
           SizedBox(
             width: 20,
           ),
-          IconButton(
-              onPressed: () => _onPressEditNotification(context),
-              icon: Icon(Icons.edit_notifications)),
+          // IconButton(
+          //     onPressed: () => _onPressEditNotification(context),
+          //     icon: Icon(Icons.edit_notifications)),
           IconButton(
               onPressed: () => _onPressLogout(context),
               icon: Icon(Icons.logout)),
